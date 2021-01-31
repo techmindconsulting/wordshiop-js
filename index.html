@@ -10,13 +10,18 @@
     <div class="container">
         <h1>CONVERTISSEUR DE MONNAIE</h1>
         <input type="text" id="amount"><span> €</span>
+        <select id="rate">
+            <option value="">Choisir la devise</option>
+            <option value="1.2077">$ (Dollar)</option>
+            <option value="0.8919">£ (Pound)</option>
+            <option value="126.34">Y (Yen)</option>
+            <option value="491">FCFA (Franc CFA)</option>
+            <option value="1.07745">CHF (Franc Suisse)</option>
+        </select>
 
-        <input type="button" value="Convertir" onclick=convertir()>
-        <p id="resultat_us" class="result"></p>
-        <p id="resultat_gb" class="result"></p>
-        <p id="resultat_jp" class="result"></p>
-        <p id="resultat_km" class="result"></p>
-        <p id="resultat_ch" class="result"></p>
+        <input id="btn-convertir" type="button" value="Convertir">
+        <p id="resultat" class="result"></p>
+
     </div>
     <script src="conversion.js"></script>
 </body>
