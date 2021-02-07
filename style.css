@@ -10,8 +10,9 @@ html {
 }
 
 .container {
-    width: 80%;
-    margin: 300px auto;
+    width: 60%;
+    text-align: center;
+    margin: 100px auto;
     border: 1px solid lightblue;
     padding: 5px 20px;
 }
@@ -23,7 +24,6 @@ h1 {
 
 p {
     border: 0px solid black;
-    width: fit-content;
     height: 50px;
 }
 
