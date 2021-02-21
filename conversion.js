@@ -10,26 +10,23 @@ devise1.add(defaultOption);
 
 const rateCurrencies = [];
 fetch("https://restcountries.eu/rest/v2/all?fields=currencies")
-.then((response) => {
-  if (response.status !==  200) {
-    alert('Erreur API');
-    return;
-  }
-  response.json()
-  .then( (currencies) => {
-    currencies.forEach((element) => {
-      console.log(element);
-      option = document.createElement("option");
-      option.text = element.currencies[0].name;
-      option.value = element.currencies[0].code;
-      devise1.add(option);
+    .then((response) => {
+        if (response.status !== 200) {
+            alert("Erreur API");
+            return;
+        }
+        response.json().then((currencies) => {
+            currencies.forEach((element) => {
+                option = document.createElement("option");
+                option.text = element.currencies[0].name;
+                option.value = element.currencies[0].code;
+                devise1.add(option);
+            });
+        });
+    })
+    .catch((error) => {
+        console.log("Erreur API", error);
     });
-  });
-})
-.catch( (error) => {
-  console.log("Erreur API", error);
-});
-
 
 function convertir() {
     const montant = document.getElementById("montant");
