@@ -41,7 +41,8 @@ function convertir() {
     fetch(API_URL + 'convert?q=' +  queryParameter + '&compact=ultra&apiKey=' + API_KEY)
     .then((response) => response.json())
     .then( (data) => {
-        resultat.textContent = data[queryParameter] * montant.value 
+        amountConverted = data[queryParameter] * montant.value;
+        resulat.textContent = amountConverted.toFixed(2);
     } )
 }
 loadCurrencies();
