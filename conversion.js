@@ -1,7 +1,9 @@
 document.getElementById("btn-convertir").addEventListener("click", convertir);
 
+const montant = document.getElementById('montant');
 const devise1 = document.getElementById("devise-1");
 const devise2 = document.getElementById("devise-2");
+const resulat = document.getElementById('resultat');
 
 defaultOption = document.createElement("option");
 defaultOption.text = "Choisir une devise";
@@ -9,35 +11,37 @@ defaultOption.text = "Choisir une devise";
 devise1.add(defaultOption);
 
 const rateCurrencies = [];
-fetch("https://restcountries.eu/rest/v2/all?fields=currencies")
-    .then((response) => {
+
+const API_URL = 'https://free.currconv.com/api/v7/';
+const API_KEY = 'd025732c1229201bbf62';
+
+function loadCurrencies() {
+    fetch(API_URL + 'currencies?apiKey=' + API_KEY)
+    .then( (response) => {
         if (response.status !== 200) {
-            alert("Erreur API");
+            alert('Erreur API');
             return;
         }
-        response.json().then((currencies) => {
-            currencies.forEach((element) => {
-                option = document.createElement("option");
-                option.text = element.currencies[0].name;
-                option.value = element.currencies[0].code;
-                devise1.add(option);
-            });
-        });
-    })
-    .catch((error) => {
-        console.log("Erreur API", error);
-    });
+
+        response.json().then( (currencies) => {
+           for(index in currencies.results) {
+               option = document.createElement('option');
+               option.value = currencies.results[index].id;
+               option.text = currencies.results[index].currencyName;
+               devise1.add(option);
+               devise2.innerHTML = devise1.innerHTML;
+            }
+        })
+    }); 
+}
+
 
 function convertir() {
-    const montant = document.getElementById("montant");
-
-    if (devise1.value !== devise2.value) {
-        const texteDevise = devise2.options[devise2.selectedIndex].text;
-        const resultat = montant.value * tauxDevise[devise1.value][devise2.value];
-
-        document.getElementById("resultat").textContent = resultat.toFixed(2) + " " + texteDevise;
-        document.getElementById("resultat").style.margin = "10px 0";
-    } else {
-        alert("Merci de selectionner des devises différentes");
-    }
+    const queryParameter = devise1.value + '_' + devise2.value;
+    fetch(API_URL + 'convert?q=' +  queryParameter + '&compact=ultra&apiKey=' + API_KEY)
+    .then((response) => response.json())
+    .then( (data) => {
+        resultat.textContent = data[queryParameter] * montant.value 
+    } )
 }
+loadCurrencies();
