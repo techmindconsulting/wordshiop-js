@@ -9,16 +9,18 @@
 <body>
     <div class="container">
         <h1>CONVERTISSEUR DE MONNAIE</h1>
-        <input type="text" id="montant">
-        <select name="devise-1" id="devise-1">
-        </select>
-        <select name="devise-2" id="devise-2">
-        </select>
+        <input type="text" id="amount">
+        <input list="currenciesFrom" id="currencyFrom"> 
+        <datalist id="currenciesFrom">
+        </datalist>
+        <input list="currenciesTo" id="currencyTo">
+        <datalist id="currenciesTo">
+        </datalist>
 
-        <input id="btn-convertir" type="button" value="Convertir">
-        <p id="resultat" class="result"></p>
+        <input id="convertBtn" type="button" value="Convertir">
+        <p id="amountConverted" class="result"></p>
 
     </div>
-    <script src="conversion.js"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
