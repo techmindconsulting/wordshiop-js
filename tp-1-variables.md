@@ -1,9 +1,9 @@
 ## TP-1 Les variables
 
-### A faire sur la console
+### A tester sur la console de votre navigateur
 
 1  Que retourne cette instruction ?
-    -   alert(6+2);
+    -   	alert(6+2);
     
 2  Que retourne l'instruction suivante ?
 	- 	typeof(5);
