@@ -35,7 +35,7 @@
 10 - Que vaut cette expression ?
 	-	3 * "bob"; 
 	-	
-### A faire sur un environnement en ligne jS
+### A faire sur un environnement en ligne JS
 
 11 -    Exercice 1
 
