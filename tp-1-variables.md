@@ -46,9 +46,22 @@ affichez le résultat avec alert();
 12 -    Exercice 2
 Soit une variable qui contient du texte, déclarez la variable dateBirth et affectez-lui votre année de naissance sous la forme d'un nombre (sans les guillemets);
 concaténez le contenu des deux variables dans alert(); de manière à afficher le texte puis votre date de naissance;
+
 13 -    Exercice 3
+déclarez deux variables isTrue et isFalse;
+attribuez à ces variables la valeur permettant de les définir respectivement comme vrai et faux;
+cliquez sur "Soumettre ma réponse".
 
 14 -    Exercice 4
+Soit quatre variables var1, var2, var3 et var4 déjà déclarées et qui contiennent un nombre.
+Dans le fichier "script.js" :
+
+déclarez la variable result;
+dans l'ordre, soustrayez var1 de var2 puis additionnez le résultat de la soustraction de var3 à var4, enfin stockez le résultat dans result, le tout en une seule ligne;
+affichez le résultat avec alert()
 
 15 -    Exercice 5
-
+Soit trois variables var1, var2, var3 déjà déclarées et qui contiennent un nombre.
+déclarez la variable result;
+dans l'ordre, additionnez var1 et var2 puis multipliez l'ensemble par var3, stockez le résultat dans result;
+affichez le résultat avec alert()
