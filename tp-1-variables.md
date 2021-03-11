@@ -2,37 +2,37 @@
 
 ### A tester sur la console de votre navigateur
 
-1  Que retourne cette instruction ?
+1 Que retourne cette instruction ?
     -   	alert(6+2);
     
-2  Que retourne l'instruction suivante ?
+2 Que retourne l'instruction suivante ?
 	- 	typeof(5);
 
-3 - Que fait l'expression suivante ?
+3 Que fait l'expression suivante ?
 	-	typeof(12) === typeof(4.78);
 
-4 - Que retourne cette expression ?
+4 Que retourne cette expression ?
 	- 	5 / 0
 
-5 - Que retourne cette expression ?
+5 Que retourne cette expression ?
 	-	3 / "bob";
 
-6 - Quel est la valeur de l'instruction suivante ?
+6 Quel est la valeur de l'instruction suivante ?
 	-	var bonjour;
 
-7 - Que retourne l'expression suivante ?
+7 Que retourne l'expression suivante ?
 	-	var y; 
 		y === "top";
 
-8 - Que retourne l'expression suivante ?
+8 Que retourne l'expression suivante ?
 	-	"bonjour" + " le monde"
 
-9 - Que vaut la variable nom_complet ?
+9 Que vaut la variable nom_complet ?
 	-	var nom = "John";
 		var prenom = "Doe";
 		var nom_complet = prenom + " " + nom;
 
-10 - Que vaut cette expression ?
+10 Que vaut cette expression ?
 	-	3 * "bob"; 
 	-	
 ### A faire sur un environnement en ligne JS
