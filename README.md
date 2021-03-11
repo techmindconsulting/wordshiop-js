@@ -1,1 +1,1 @@
-# wordshiop-js
+# wordshop-js
