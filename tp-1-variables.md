@@ -50,9 +50,13 @@
 11 -    Exercice 1
 
 Soit trois variables var1, var2, var3 déclarées et qui contiennent un nombre.
-déclarez la variable result;
-dans l'ordre, additionnez var1 et var2 puis divisez l'ensemble par var3, stockez le résultat dans result;
-affichez le résultat avec alert();
+
+Déclarez la variable result.
+
+Dans l'ordre : 
+ - additionnez var1 et var2 
+ - puis divisez l'ensemble par var3, stockez le résultat dans result.
+ - affichez le résultat avec alert();
 
 12 -    Exercice 2
 
