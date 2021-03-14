@@ -59,20 +59,22 @@ Dans l'ordre :
 
 12 -    Exercice 2
 
-Soit une variable qui contient du texte, déclarez la variable dateDeNaissance et affectez-lui votre année de naissance sous la forme d'un nombre (sans les guillemets).
+Soit une variable qui contient du texte. 
 
-Concaténez le contenu des deux variables dans alert() de manière à afficher le texte puis votre date de naissance.
+- Déclarez la variable dateDeNaissance et affectez-lui votre année de naissance sous la forme d'un nombre (sans les guillemets).
+- Concaténez le contenu des deux variables dans alert() de manière à afficher le texte puis votre date de naissance.
 
 13 -    Exercice 3
 
-Déclarez deux variables isTrue et isFalse.
-Attribuez à ces variables la valeur permettant de les définir respectivement comme vrai et faux.
+- Déclarez deux variables isTrue et isFalse.
+- Attribuez à ces variables la valeur permettant de les définir respectivement comme vrai et faux.
 
 14 -    Exercice 4
 
 Soit quatre variables var1, var2, var3 et var4 déjà déclarées et qui contiennent un nombre.
 
 Déclarez la variable result.
+
 Dans l'ordre: 
 - Soustrayez var1 de var2 puis additionnez le résultat de la soustraction de var3 à var4 et enfin stockez le résultat dans result.
 - Affichez le résultat avec alert()
