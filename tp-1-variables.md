@@ -47,7 +47,7 @@
 
 ### A faire sur un environnement en ligne JS
 
-11 -    Exercice 1
+ #### 11 -    Exercice 1
 
 Soit trois variables var1, var2, var3 déclarées et qui contiennent un nombre.
 
@@ -57,19 +57,19 @@ Dans l'ordre :
  - additionnez var1 et var2  puis divisez l'ensemble par var3 et stockez le résultat dans result.
  - affichez le résultat avec alert();
 
-12 -    Exercice 2
+#### 12 -    Exercice 2
 
 Soit une variable qui contient du texte. 
 
 - Déclarez la variable dateDeNaissance et affectez-lui votre année de naissance sous la forme d'un nombre (sans les guillemets).
 - Concaténez le contenu des deux variables dans alert() de manière à afficher le texte puis votre date de naissance.
 
-13 -    Exercice 3
+#### 13 -    Exercice 3
 
 - Déclarez deux variables isTrue et isFalse.
 - Attribuez à ces variables la valeur permettant de les définir respectivement comme vrai et faux.
 
-14 -    Exercice 4
+#### 14 -    Exercice 4
 
 Soit quatre variables var1, var2, var3 et var4 déjà déclarées et qui contiennent un nombre.
 
@@ -79,7 +79,7 @@ Dans l'ordre:
 - Soustrayez var1 de var2 puis additionnez le résultat de la soustraction de var3 à var4 et enfin stockez le résultat dans result.
 - Affichez le résultat avec alert()
 
-15 -    Exercice 5
+#### 15 -    Exercice 5
 
 Soit trois variables var1, var2, var3 déjà déclarées et qui contiennent un nombre.
 
