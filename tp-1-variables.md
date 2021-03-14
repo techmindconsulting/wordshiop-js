@@ -45,7 +45,7 @@
 
 	-	3 * "bob"; 
 
-### A faire sur un environnement en ligne JS
+### A faire sur un environnement en ligne JS (https://jsbin.com/)
 
  #### 11 -    Exercice 1
 
