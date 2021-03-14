@@ -27,6 +27,22 @@ p {
     height: 50px;
 }
 
+.alertError {
+    font-size: 0.6rem;
+    background-color: tomato;
+    border-radius: 5px;
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    display: none;
+    opacity: 0.7;
+    transition: all ease-in-out 0.4;
+}
+
+.alertError ul {
+    list-style-type: none;
+}
+
 input, select {
     height: 40px;
 }
