@@ -12,7 +12,8 @@ num1 = window.prompt("Merci de saisir le premier nombre", "0");
 num2 = window.prompt("Merci de saisir le second nombre", "0");
 ....
 ``` 
-Remarque : La méthode Window.prompt() affiche une boîte de dialogue, éventuellement avec un message, qui invite l'utilisateur à faire une saisie .
+Remarque : La méthode Window.prompt() affiche une boîte de dialogue, éventuellement avec un message, qui invite l'utilisateur à faire une saisie.
+
 Documentation: https://developer.mozilla.org/fr/docs/Web/API/Window/prompt
 
 
@@ -35,11 +36,13 @@ console.log(helloWorld('fr')); // Bonjour tous le monde
 console.log(helloWorld('es')); // Hola, Munda
 ``` 
 
-Remarque: Une fonction est un sous programme qui effectue une tache. Afin d'utiliser la fonction il est nécéssaire de l'appeler
+Remarque: Une fonction est un sous programme qui effectue une tache. Afin d'utiliser la fonction, il est nécéssaire de l'appeler.
+
 Documentation: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions
 
 
 #### -    Exercice 3
+
 Completer cette fonction nommée attribuerNote qui prend en argument la note et doit
 renvoyer une lettre pour le score, soit «A», «B», «C», «D» ou «F».
 Si le score > 90 alors retourner A
@@ -81,7 +84,8 @@ number = window.prompt("Merci de saisir un nombre");
 ....
 ``` 
 
-#### Exercice 5
+#### - Exercice 5
+
 Déclarez trois variables a, b et c comme "1", "2" et a+b. 
 Afficher le type et la valeur de chaque variable. 
 
