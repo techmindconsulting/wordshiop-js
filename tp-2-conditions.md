@@ -12,7 +12,7 @@ num1 = window.prompt("Merci de saisir le premier nombre", "0");
 num2 = window.prompt("Merci de saisir le second nombre", "0");
 ....
 ``` 
-Remarque : La méthode Window.prompt() affiche une boîte de dialogue, éventuellement avec un message, qui invite l'utilisateur à saisir un texte ou .
+Remarque : La méthode Window.prompt() affiche une boîte de dialogue, éventuellement avec un message, qui invite l'utilisateur à faire une saisie .
 Documentation: https://developer.mozilla.org/fr/docs/Web/API/Window/prompt
 
 
