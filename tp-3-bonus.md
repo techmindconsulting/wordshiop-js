@@ -13,6 +13,14 @@ function multiple3Or7(number)
 }
 ....
 ``` 
+console.log(multiple3Or7(9))); // 9 est multiple de 3
+console.log(multiple3Or7(49))); // 49 est multiple 7
+
+On dit qu'un nombre A est multiple d'un nombre B si l'on peut trouver A en multipliant B par un nombre entier 
+ou que le reste de la division est égal à zéro
+
+L'opérateur qui permet de connaitre que le reste de la division est %
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 
 #### -    Exercice 2
 
