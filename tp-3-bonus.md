@@ -54,7 +54,7 @@ Exemple:
 console.log(maxNumber(5,1,56)); // doit retourner 56 
 ```
 
-### - Exercice 5
+#### - Exercice 5
 
 Il est demandé de déclarer et définir trois variables numériques.
 
