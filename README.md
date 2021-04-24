@@ -12,4 +12,4 @@
 
 [TD-shopping-list](shopping-list.md) - Liste de courses supermarché
 
-[TD-top-5-search-engine] (top-5-search-engine.md) - Top 5 des recherches
+[TD-top-5-search-engine](top-5-search-engine.md) - Top 5 des recherches
