@@ -10,4 +10,4 @@
 
 ## TD JS
 
-[TD-shopping-list](td-shopping-list.md) - Liste de courses supermarché
+[TD-shopping-list](shopping-list.md) - Liste de courses supermarché
