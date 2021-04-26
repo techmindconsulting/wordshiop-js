@@ -15,41 +15,43 @@ Quand un terme est entré dans la boîte de recherche, les 5 précédents termes
 
 ### javascript
 
-    const list = document.querySelector('.output ul');
-    const searchInput = document.querySelector('.output input');
-    const searchBtn = document.querySelector('.output button');
-	
-	list.innerHTML = '';
-	const myHistory = [];
+```
+const list = document.querySelector('.output ul');
+const searchInput = document.querySelector('.output input');
+const searchBtn = document.querySelector('.output button');
 
-	searchBtn.addEventListener('click', () => {
-	// nous n'autoriserons la saisie d'un terme que si l'entrée de recherche n'est pas vide
-		if (searchInput.value !== '') {
-			// etape 1
-			
-			// vider la liste pour ne pas afficher les entrées en double
-		    // l'affichage est régénéré chaque fois qu'un terme de recherche est entré.
-		    
-		    list.innerHTML = '';
+list.innerHTML = '';
+const myHistory = [];
 
-			// parcourez le tableau et affichez tous les termes de recherche dans la liste
-		     myHistory.forEach( term => {
-		        let listItem = document.createElement('li');
-		        listItem.textContent = term;
-		        list.appendChild(listItem);
-		     });
-		     
-		    // Si la longueur du tableau est égale ou supérieure à 5, 
-		    // supprimez le terme de recherche le plus ancien
-		    if (myHistory.length >= 5) {
-		      // etape 2 
-		    }
+searchBtn.addEventListener('click', () => {
+    // nous n'autoriserons la saisie d'un terme que si l'entrée de recherche n'est pas vide
+    if (searchInput.value !== '') {
+        // etape 1
 
-		    // videz l'entrée de recherche et concentrez-la, prêt pour le prochain terme à saisir
-		    searchInput.value = '';
-		    searchInput.focus();
-	    }
-    });
+        // vider la liste pour ne pas afficher les entrées en double
+        // l'affichage est régénéré chaque fois qu'un terme de recherche est entré.
+
+        list.innerHTML = '';
+
+        // parcourez le tableau et affichez tous les termes de recherche dans la liste
+        myHistory.forEach(term => {
+            let listItem = document.createElement('li');
+            listItem.textContent = term;
+            list.appendChild(listItem);
+        });
+
+        // Si la longueur du tableau est égale ou supérieure à 5, 
+        // supprimez le terme de recherche le plus ancien
+        if (myHistory.length >= 5) {
+            // etape 2 
+        }
+
+        // videz l'entrée de recherche et concentrez-la, prêt pour le prochain terme à saisir
+        searchInput.value = '';
+        searchInput.focus();
+    }
+});
+```
 
 
 ## Etape 1
