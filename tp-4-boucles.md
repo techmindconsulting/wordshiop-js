@@ -1,4 +1,4 @@
-## TP-4 Les conditions
+## TP 4 -  Les boucles
 
 ### A faire sur un environnement en ligne JS (jsbin ou codepen)
 
