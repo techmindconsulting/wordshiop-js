@@ -1,6 +1,6 @@
 ## TP-3 Bonus
 
-### A faire sur un environnement en ligne JS (https://jsbin.com/)
+### A faire sur un environnement en ligne JS (ex: https://jsbin.com/)
 
  #### -    Exercice 1
 

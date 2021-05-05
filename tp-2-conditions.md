@@ -1,6 +1,6 @@
 ## TP-2 Les conditions
 
-### A faire sur un environnement en ligne JS (https://jsbin.com/)
+### A faire sur un environnement en ligne JS (ex: https://jsbin.com/)
 
  #### -    Exercice 1
 
