@@ -12,7 +12,7 @@
 
 ## TD JS
 
-[TD-Filtrer-les-unes-dun-journal-sportif](filter-title-newspaper.md) - Filtrer les une d'un journal sportif
+[TD-Filtrer-les-unes-dun-journal-sportif](filter-title-newspaper.md) - Filtrer les unes d'un journal sportif
 
 [TD-reset-capital-letters](reset-capital-letters.md) - Remettre les majuscules
 
