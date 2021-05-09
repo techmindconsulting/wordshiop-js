@@ -48,9 +48,9 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
 #### -  Exercice 8
 
-Completer le programme suivant qui doit permettre de saisir un nombre entre 1 et 10 qui pourrait être multiple du nombre aléatoire
+Completer le programme suivant qui doit permettre de saisir un nombre entre 1 et 10 qui pourrait être un multiple du nombre aléatoire
 compris entre 0 et 100.
-Les mentions A completer doivent être complété
+Les 4 mentions A completer doivent être complété
 
 ```javascript
 const INFORMATION = 
