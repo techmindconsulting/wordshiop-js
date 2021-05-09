@@ -48,21 +48,35 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
 #### -  Exercice 8
 
-Utiliser une boucle while pour determiner le premier entier obtenu par tirage aléatoire(Math.random()) qui soit multiple d'un nombre donné. Ecrivez à l'écran la variante avec la boucle do...while.
+Completer le programme suivant qui doit permettre de saisir un nombre entre 1 et 10 qui pourrait être multiple du nombre aléatoire
+compris entre 0 et 100.
+Les mentions A completer doivent être complété
 
-Documentation random: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+```
+const INFORMATION = 
+      'Merci de saisir un nombre entre 1 et 10' + 
+      ' qui pourrait être multiple' + 
+      ' du nombre aléatoire';
 
-Documentation write: https://developer.mozilla.org/fr/docs/Web/API/Document/write
+let random = Math.floor(Math.random() * // A completer 1);
 
-Documentation prompt : https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
+let operande = prompt(INFORMATION);
+operande = Number(operande); 
 
-Exemple : 
+if (// A completer 2) {
+  while(// A completer 3) {
+    alert(random + ' non multiple de ' + operande);
+    operande = prompt(INFORMATION);
+    operande = Number(operande);
+    random = Math.ceil(Math.random() * // A completer 4);
+  }
+  document.write(random + ' multiple de ' + operande);
+} else {
+  alert('Merci de saisir un nombre entre 1 et 10');
+}
+``` 
 
-1 - Merci de saisir un nombre qui pourrait être multiple du nombre aléatoire
-
-2 - Tant que le nombre aleatoire entre 0 et 100 n'est pas multiple du nombre saisi alors je redemande de resaisir un multiple potentiel
-
-3 - Afficher le nombre aleatoire et le multiple dans le document : (Ex: Le nombre aleatoire xxxx est multiple du nombre saisi xxxx);
+Une fois completé, vous devez écrire le même programme avec un do...while
 
 
 #### -  Exercice 9
