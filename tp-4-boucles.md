@@ -52,7 +52,7 @@ Completer le programme suivant qui doit permettre de saisir un nombre entre 1 et
 compris entre 0 et 100.
 Les mentions A completer doivent être complété
 
-```
+```javascript
 const INFORMATION = 
       'Merci de saisir un nombre entre 1 et 10' + 
       ' qui pourrait être multiple' + 
@@ -68,7 +68,7 @@ if (// A completer 2) {
     alert(random + ' non multiple de ' + operande);
     operande = prompt(INFORMATION);
     operande = Number(operande);
-    random = Math.ceil(Math.random() * // A completer 4);
+    random = Math.floor(Math.random() * // A completer 4);
   }
   document.write(random + ' multiple de ' + operande);
 } else {
