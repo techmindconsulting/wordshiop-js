@@ -105,7 +105,9 @@ Ecrire un programme qui construit le schema suivant à l'écran en utiilisant le
 1 1 1 1  
 1 1 1 1 1
 ``` 
-Indice : une boucle imbriqué devra être utilisé, exemple
+Indice : une boucle imbriqué devra être utilisé
+
+##### Exemple
 ```javascript
 function multiplyAll(arr) {
   let product = 1;
