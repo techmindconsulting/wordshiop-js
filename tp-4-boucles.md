@@ -54,6 +54,12 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Gl
 
 Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
+Exemple : 
+1 - Merci de saisir un nombre qui pourrait être multiple du nombre aléatoire
+2 - Tant que le nombre aleatoire entre 0 et 100 n'est pas multiple du nombre saisi alors je redemande de resaisir un multiple potentiel
+3 - Afficher le nombre aleatoire et le multiple dans le document : (Ex: Le nombre aleatoire xxxx est multiple du nombre saisi xxxx);
+
+
 #### -  Exercice 9
 
 Completer la fonction puissance qui prend deux arguments qui réalise le calcul du premier argument élevé à la puissance du deuxième sans utiliser les fonctions mahtématiques de JS. `.
