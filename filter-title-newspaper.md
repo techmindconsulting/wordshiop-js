@@ -19,7 +19,7 @@ Nous avons des unes d'un journal sportif, mais nous voulons les trier pour ne li
                  'Lyon les mal aimés',
                  'Lyon a changé de visage à la pause',
                  'Le maintien défi ultime pour Lens',
-                 '3 forfait ce soir pour Paris'];
+                 '3 forfaits ce soir pour Paris'];
     for (var i = 0; i < greetings.length; i++) {
 	    var input = greetings[i];
 	    // Votre test conditionnel doit être dans les parenthèses
