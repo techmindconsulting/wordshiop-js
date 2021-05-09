@@ -50,13 +50,18 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
 Utiliser une boucle while pour determiner le premier entier obtenu par tirage aléatoire(Math.random()) qui soit multiple d'un nombre donné. Ecrivez à l'écran la variante avec la boucle do...while.
 
-Documentation: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+Documentation random: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
-Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
+Documentation write: https://developer.mozilla.org/fr/docs/Web/API/Document/write
+
+Documentation prompt : https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
 
 Exemple : 
+
 1 - Merci de saisir un nombre qui pourrait être multiple du nombre aléatoire
+
 2 - Tant que le nombre aleatoire entre 0 et 100 n'est pas multiple du nombre saisi alors je redemande de resaisir un multiple potentiel
+
 3 - Afficher le nombre aleatoire et le multiple dans le document : (Ex: Le nombre aleatoire xxxx est multiple du nombre saisi xxxx);
 
 
