@@ -14,19 +14,19 @@ A l'aide d'une boucle for, écrire dans la console la suite de chiffres qui va d
 
 #### -  Exercice 3
 
-A l'aide d'une boucle while, écrire dans la console la suite de chiffres qui va de 20 à 39.
+A l'aide d'une boucle while, écrire dans la console la suite de nombres qui va de 20 à 39.
 
 
 #### -  Exercice 4
 
-A l'aide d'une boucle while, écrire dans la console la suite de chiffres qui va de 20 à 39 tout en sautant les multiples de 3.
+A l'aide d'une boucle while, écrire dans la console la suite de nombres qui va de 20 à 39 tout en sautant les multiples de 3.
 
 
 #### -  Exercice 5
 
 Ecrire une boucle for qui itérera de 1 à 15. Pour chaque itération, il vérifiera si le nombre actuel est impair ou pair, et affichera un message à l'écran via la fonction document.write().
 
-Le resulat devra ressembler à
+Le resultat devra ressembler à
 ```
 1 est impair
 2 est pair
@@ -43,7 +43,8 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
 #### -  Exercice 7
 
-Écrire un programme qui additionne les multiples de 3 et 5 entre 0 et 1000 et afficher le resultat dans la console.
+Écrire un programme qui additionne les multiples de 3 et 5 entre 0 et 1000 et afficher le 
+tat dans la console.
 
 
 #### -  Exercice 8
