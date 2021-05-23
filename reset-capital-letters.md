@@ -1,7 +1,6 @@
 # TD : Remettre les majuscules
 
-Dans cet exercice, nous avons des noms des villes Françaises, mais les majuscules ne sont pas au bon endroit. Nous souhaitons modifier les noms pour qu'ils soient en minuscules à l'exception de la première lettre qui doit être une majuscule. Une bonne manière de faire ceci
-
+Dans cet exercice, nous avons des noms des villes Françaises, mais les majuscules ne sont pas au bon endroit. Nous souhaitons modifier les noms pour qu'ils soient en minuscules à l'exception de la première lettre qui doit être une majuscule.
 ### html
     <body>
 	    <div class="output">
