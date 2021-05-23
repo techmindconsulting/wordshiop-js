@@ -31,7 +31,11 @@ const stations = ['LIL675847583748sjt567654;Lille Garde du Nord',
 
 for (let i = 0; i < stations.length; i++) {
   let input = stations[i];
-  // write your code just below here
+  // Etape 1
+  // Etape 2
+  // Etape 3
+  // Etape 4
+  // Etape 5
 
   let result = input;
   let listItem = document.createElement('li');
