@@ -6,7 +6,7 @@ LIL675847583748sjt567654;Lille Garde du Nord
 ```
 Nous voulons extraire le code de la station et son nom, et les associer dans une chaîne avec la structure suivante :
 ```
-MAN: Manchester Piccadilly
+LIL: Lille Gare du Nord
 ```
 
 ### html
