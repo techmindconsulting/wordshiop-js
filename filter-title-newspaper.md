@@ -13,24 +13,24 @@ Nous avons des unes d'un journal sportif, mais nous voulons les trier pour ne li
 
 ### javascript
 
-    var list = document.querySelector('.output ul');
+    cont list = document.querySelector('.output ul');
     list.innerHTML = '';
-    var greetings = ['On a retrouvé Marseille à la seconde période!',
+    const titles = ['On a retrouvé Marseille à la seconde période!',
                  'Lyon les mal aimés',
                  'Lyon a changé de visage à la pause',
                  'Le maintien défi ultime pour Lens',
                  '3 forfaits ce soir pour Paris'];
-    for (var i = 0; i < greetings.length; i++) {
-	    var input = greetings[i];
+    for (var i = 0; i < titles.length; i++) {
+	    var input = titles[i];
 	    // Votre test conditionnel doit être dans les parenthèses
 	    // dans la ligne ci-dessous, en remplaçant celle présente.
-	    if (greetings[i]) {
-		    var result = input;
-		    var listItem = document.createElement('li');
+	    if (titles[i]) {
+		    let result = input;
+		    let listItem = document.createElement('li');
 		    listItem.textContent = result;
 		    list.appendChild(listItem);
 		  }
-	}
+     }
 
 
 
