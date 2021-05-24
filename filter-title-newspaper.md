@@ -13,7 +13,7 @@ Nous avons des unes d'un journal sportif, mais nous voulons les trier pour ne li
 
 ### javascript
 
-    cont list = document.querySelector('.output ul');
+    const list = document.querySelector('.output ul');
     list.innerHTML = '';
     const titles = ['On a retrouvé Marseille à la seconde période!',
                  'Lyon les mal aimés',
