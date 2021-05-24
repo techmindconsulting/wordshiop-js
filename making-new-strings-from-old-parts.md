@@ -1,26 +1,33 @@
 # TD : Créer de nouvelles chaines à partir de morceaux
 
-Dans ce dernier exercice, le tableau contient un lot de chaînes contenant des informations à propos d'arrêts de train dans le nord de de la France. Les chaînes sont des éléments de données contenant le code en trois lettres de l'arrêt, suivi par des données lisibles par machine, suivi par un point-virgule, et enfin le nom de la station lisible par un humain. Par exemple :
+Le tableau contient un lot de chaînes contenant des informations à propos d'arrêts de train dans le nord de de la France. 
+
+Les chaînes sont des éléments de données contenant: 
+- le code en trois lettres de l'arrêt
+- des données lisibles par une machine suivi par un point-virgule
+- le nom de la station lisible par un humain.
+
+Exemple
 ```
 LIL675847583748sjt567654;Lille Garde du Nord
 ```
+
 Nous voulons extraire le code de la station et son nom, et les associer dans une chaîne avec la structure suivante :
 ```
 LIL: Lille Gare du Nord
 ```
 
 ### html
-    <body>
-	    <div class="output">
-		    <ul>
-		    </ul>
-		</div>
-	</body>
+```html
+<div class="output">
+  <ul>
+  </ul>
+</div>
 
 
 ### javascript
 
-```
+```javascript
 const list = document.querySelector('.output ul');
 list.innerHTML = '';
 const stations = ['LIL675847583748sjt567654;Lille Garde du Nord',
