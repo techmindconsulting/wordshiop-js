@@ -36,4 +36,12 @@ for (var i = 0; i < titles.length; i++) {
 
 ## Etape 1
 
-Réfléchissez d'abord à comment vérifier que le message concerne Lyon. Quelle chaîne est présente dans tous ces unes, et quelle méthode pourriez-vous utiliser pour en tester la présence ?
+Réfléchissez d'abord à comment vérifier que le message concerne Lyon.
+
+## Etape 2
+
+Quelle chaîne est présente dans tous ces unes. 
+
+## Etape 3
+
+Quelle méthode pourriez-vous utiliser pour en tester la présence ?
