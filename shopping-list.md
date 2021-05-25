@@ -60,10 +60,10 @@ En plus des lignes de code ci‑dessus, vous aurez aussi à convertir les prix d
 
 Il y a une variable nommée  `total`  créée et initialisée à la valeur de 0 en tête du code. 
 
-Dans la boucle (sous  `// number 4`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit sur l'envoi. 
+Dans la boucle (sous  `// number 4`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit. 
 
 ## Etape 6
 
-Nous souhaitons que vous modifiez la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — $23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée sur l'envoi. 
+Modifier la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — $23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée. 
 
 Il s'agit d'une simple concaténation de chaînes de caractères, chose qui doit vous être familière.
