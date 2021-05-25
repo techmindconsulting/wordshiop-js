@@ -54,12 +54,16 @@ Au dessous du commentaire  `// etape 3`  nous voudrions que vous écriviez une l
 
 ## Etape 4
 
-En plus des lignes de code ci‑dessus, vous aurez aussi à convertir les prix de chaîne de caractères en chiffres. Si vous ne vous souvenez pas comment faire, revoyez
+En plus des lignes de code ci‑dessus, vous aurez aussi à convertir les prix de chaîne de caractères en nombres. 
 
 ## Etape 5
 
-Il y a une variable nommée  `total`  créée et initialisée à la valeur de 0 en tête du code. Dans la boucle (sous  `// number 4`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit sur l'envoi. 
+Il y a une variable nommée  `total`  créée et initialisée à la valeur de 0 en tête du code. 
+
+Dans la boucle (sous  `// number 4`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit sur l'envoi. 
 
 ## Etape 6
 
-Nous souhaitons que vous modifiez la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — $23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée sur l'envoi. Il s'agit d'une simple concaténation de chaînes de caractères, chose qui doit vous être familière.
+Nous souhaitons que vous modifiez la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — $23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée sur l'envoi. 
+
+Il s'agit d'une simple concaténation de chaînes de caractères, chose qui doit vous être familière.
