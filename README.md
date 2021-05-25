@@ -11,13 +11,22 @@
 
 
 ## TD JS
+### Chaines de caractères
 
 [TD-1](filter-title-newspaper.md) - Filtrer les unes d'un journal sportif
 
 [TD-2](reset-capital-letters.md) - Remettre les majuscules
 
+
 [TD-3](making-new-strings-from-old-parts.md) - Créer de nouvelles chaînes à partir de morceaux
 
+### Tableau
 [TD-4](shopping-list.md) - Liste de courses supermarché
 
 [TD-5](top-5-search-engine.md) - Top 5 des recherches
+
+[TD-6](meal.md) - Mes plats préférés
+
+[TD-7] 
+
+[TD-8]
