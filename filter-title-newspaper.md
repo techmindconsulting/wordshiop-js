@@ -21,8 +21,8 @@ const titles = [
   "Le maintien défi ultime pour Lens",
   "3 forfaits ce soir pour Paris"
 ];
-for (var i = 0; i < titles.length; i++) {
-  var input = titles[i];
+for (let i = 0; i < titles.length; i++) {
+  let input = titles[i];
   // Votre test conditionnel doit être dans les parenthèses
   // dans la ligne ci-dessous, en remplaçant celle présente.
   if (titles[i]) {
