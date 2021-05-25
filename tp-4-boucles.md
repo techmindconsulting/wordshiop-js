@@ -43,8 +43,7 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Document/write
 
 #### -  Exercice 7
 
-Écrire un programme qui additionne les multiples de 3 et 5 entre 0 et 1000 et afficher le 
-tat dans la console.
+Écrire un programme qui additionne les multiples de 3 et 5 entre 0 et 1000 et afficher le resultat dans la console.
 
 
 #### -  Exercice 8
