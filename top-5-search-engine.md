@@ -1,17 +1,21 @@
 # TD : TOP 5 Recherche
 
-Quand un terme est entré dans la boîte de recherche, les 5 précédents termes entrés sont affichés dans la liste. Quand le nombre de termes dépasse 5, le dernier terme est supprimé chaque fois qu'un nouveau terme est ajouté ; ainsi, le 5 termes précédents sont toujours affichés.
+Quand un terme est entré dans la boîte de recherche, les 5 précédents termes entrés sont affichés dans la liste. 
+
+Quand le nombre de termes dépasse 5, le dernier terme est supprimé chaque fois qu'un nouveau terme est ajouté.
+
+Ainsi les 5 précédents termes sont toujours affichés.
 
 ### html
-    <body>
-	    <div class="output">
-	        <input type="text" name="search" id="search">
-	        <button type="button">Rechercher</button>
-		    <ul>
-		    </ul>
-		</div>
-	</body>
 
+```javascript
+<div class="output">
+  <input type="text" name="search" id="search">
+  <button type="button">Rechercher</button>
+  <ul>
+  </ul>
+</div>
+```
 
 ### javascript
 
@@ -56,8 +60,10 @@ searchBtn.addEventListener('click', () => {
 
 ## Etape 1
 
-Ajouter une ligne sous le commentaire  `// etape1`  pour ajouter la valeur qui vient d'être saisie dans la boîte au début du tableau. Cette valeur est récupérée avec  `searchInput.value`.
+Ajouter une ligne sous le commentaire  `// etape1`  pour ajouter la valeur qui vient d'être saisie dans le tableau. 
+
+Cette valeur est récupérée avec  `searchInput.value`.
 
 ## Etape 2
 
-Ajouter une ligne sous le commentaire  `// number 2` pour supprimer la valeur en fin de liste du tableau.
+Ajouter une ligne sous le commentaire  `// number 2` pour supprimer la plus ancienne saisie
