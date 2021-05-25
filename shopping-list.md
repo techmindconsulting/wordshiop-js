@@ -3,15 +3,16 @@
 Afficher les noms des produits et leurs prix, puis faire le total des prix et l'afficher à la fin de la liste. Dans l'exemple modifiable ci‑dessous, il y a des commentaires numérotés — chacun d'entre eux marque l'emplacement où vous devez ajouter du code.
 
 ### html
-    <body>
-	    <div class="output">
-		    <ul></ul>
-		    <p></p>
-        </div>
-    </body>
-
+```html
+<div class="output">
+  <ul></ul>
+  <p></p>
+</div>
+```
 
 ### javascript
+
+```javascript
     const list = document.querySelector('.output ul');
     const totalBox = document.querySelector('.output p');
     let total = 0;
@@ -25,7 +26,7 @@ Afficher les noms des produits et leurs prix, puis faire le total des prix et l'
                 'Pantalons:31.99'
                 'Chaussures:23.99';
     
-    for (var i = 0; i <= 0; i++) { // etape 2
+    for (let i = 0; i <= 0; i++) { // etape 2
 	    // etape 3
 	    
 	    // etape 4
@@ -36,7 +37,7 @@ Afficher les noms des produits et leurs prix, puis faire le total des prix et l'
 	    listItem.textContent = itemText;
 	    list.appendChild(listItem);
     }
-
+```
 
 ## Etape 1
 
