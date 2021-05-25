@@ -16,7 +16,7 @@ Créer un tableau avec trois éléments correspondant à une liste de plats. Mod
 
 // Vous n'avez pas besoin de modifier le code ci dessous
 const section = document.querySelector('section');
-section.innerHTML = ' ';
+
 let paragraph = document.createElement('p');
 paragraph.textContent = `Mes plats: ${ mesPlats }`;
 
