@@ -1,4 +1,4 @@
-# TD : Plats préférés
+# TD : Jeu vidéo
 
 Vous avez une chaîne de caractères sur laquelle figure des personnages de jeu video.
 Modifier le programmee afin que les informations suivantes puissent s'afficher :
