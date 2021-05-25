@@ -64,6 +64,6 @@ Dans la boucle (sous  `// number 4`) ajoutez une ligne qui ajoute à ce total le
 
 ## Etape 6
 
-Modifier la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — $23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée. 
+Modifier la ligne au‑dessous de `// number 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — €23.99 » dans chaque cas, de façon à ce qu'une information correcte soit affichée. 
 
 Il s'agit d'une simple concaténation de chaînes de caractères, chose qui doit vous être familière.
