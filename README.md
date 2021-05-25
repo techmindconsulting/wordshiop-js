@@ -27,6 +27,6 @@
 
 [TD-6](meal.md) - Mes plats préférés
 
-[TD-7] 
+[TD-7](video-games.md) - Jeu vidéo
 
-[TD-8]
+[TD-8](video-games-2.md) - Jeu vidéo 2
