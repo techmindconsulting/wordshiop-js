@@ -151,7 +151,7 @@ const voters = [
     {name: 'Zack', age: 19, voted: false}
 ];
 
-document.write(`Le nombre de votant est de ${nbVotant}`);
+document.write(`La moyenne d'age est de ${nbVotant}`);
 ```
 #### -  Exercice 10
 
