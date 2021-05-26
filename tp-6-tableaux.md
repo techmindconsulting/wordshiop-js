@@ -157,7 +157,7 @@ Mettre un tableau a plat dans un seul tableau à l'aide d'une fonction
 
 ```javascript
 function flatten(arr) {
-   // your code here    
+   
 }
 
 const myArrays = [
