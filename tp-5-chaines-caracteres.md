@@ -22,9 +22,6 @@ console.log(isBlank('hello world')) // doit retourner false
 Ecrire une fonction qui transforme une chaine de caractère en abbreviation. 
 La fonction doit retourner false lorsqu'un seul mot figure dans la chaine.
 
-Exemple :
-Tom Hanks en entrée doit retourner TH
-Tom doit retourner false
 
 ```javascript
 fonction getAbbreviation(string) {
@@ -32,7 +29,7 @@ fonction getAbbreviation(string) {
 }
 
 console.log(getAbbreviation('Tom Hanks')) // TH
-console.log(getAbbreviation('Tom')) // T
+console.log(getAbbreviation('Tom')) // false
 
 ```
 #### -  Exercice 3
