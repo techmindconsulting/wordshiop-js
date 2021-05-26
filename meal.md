@@ -6,7 +6,7 @@ Modifier les deux premiers éléments du tableau.
 
 Enfin ajoutez un nouveau plat au début du tableau.
 
-Les plats doivent être affiché séparé d'un (tiret : "-") 
+Les plats doivent être affichés séparés d'un (tiret : "-") 
 
 ### html
 
