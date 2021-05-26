@@ -9,6 +9,10 @@
 
 [TP-4](tp-4-boucles.md) - Les boucles
 
+[TP-5](tp-5-chaines-caracteres.md) - Les chaines de caractères
+
+[TP-6](tp-6-tableaux.md) - Les tableaux
+
 
 ## TD JS
 ### Chaines de caractères
