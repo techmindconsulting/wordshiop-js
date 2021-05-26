@@ -49,7 +49,7 @@ console.log(hideEmail('john')); // false
 
 Ecrire une fonction qui insere une chaine de caractère dans une position particulière
 
-```javasript
+```javascript
 
 function insert(string) {
 
