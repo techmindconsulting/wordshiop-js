@@ -27,8 +27,6 @@ function multiplyOddIndices(numbers) {
 const myArray = [4, 8, 11, 14, 19, 6];
 console.log(multiplyOddIndices(myArray)); // [0, 8, 11, 42, 19, 30]
 ``` 
-*/
-
 
 #### -  Exercice 3
 
