@@ -6,7 +6,7 @@
 
 Ecrire une fonction qui vérifie qu'un nombre est un multiple de 3 et de 7
 
-```
+```javascript
 function multiple3Or7(number) 
 {
 
@@ -14,7 +14,7 @@ function multiple3Or7(number)
 ....
 ``` 
 
-```
+```javascript
 console.log(multiple3Or7(9)); // 9 est multiple de 3
 console.log(multiple3Or7(49)); // 49 est multiple 7
 ```
@@ -33,7 +33,7 @@ Ci joint la formule:
 
 (F − 32) × 5/9 = C
 
-```
+```javascript
 function convertToCelcius(temperature) 
 {
 
@@ -51,7 +51,7 @@ Si l'entrée de l'utilisateur correspond au nombre aléatoire, le programme affi
 
 Ecrire une fonction qui trouve trouve le plus grand nombre parmi les trois donnée
 
-```
+```javascript
 function maxNumber(number1, number2, number3) 
 {
 
@@ -61,7 +61,7 @@ function maxNumber(number1, number2, number3)
 
 Exemple:
 
-```
+```javascript
 console.log(maxNumber(5,1,56)); // doit retourner 56 
 ```
 
