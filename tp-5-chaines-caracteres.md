@@ -20,7 +20,7 @@ console.log(isBlank('hello world')) // doit retourner false
 #### -  Exercice 2
 
 Ecrire une fonction qui transforme une chaine de caractère en abbreviation. 
-La fonction doit retourner false lorsqu'un mot figure dans la chaine.
+La fonction doit retourner false lorsqu'un seul mot figure dans la chaine.
 
 Exemple :
 Tom Hanks en entrée doit retourner TH
