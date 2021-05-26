@@ -1,6 +1,10 @@
 # TD : Plats préférés
 
-Créer un tableau avec trois éléments correspondant à une liste de plats. Modifier les deux premiers éléments du tableau. Enfin ajoutez un nouveau plat au début du tableau.
+Créer un tableau avec trois éléments correspondant à une liste de plats. 
+
+Modifier les deux premiers éléments du tableau. 
+
+Enfin ajoutez un nouveau plat au début du tableau.
 
 ### html
 
