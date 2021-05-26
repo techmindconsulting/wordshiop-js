@@ -155,3 +155,18 @@ document.write(`La moyenne d'age est de ${nbVotant}`);
 ```
 #### -  Exercice 10
 
+Mettre un tableau a plat dans un seul tableau à l'aide d'une fonction
+
+```javascript
+function flatten(arr) {
+   // your code here    
+}
+
+const myArrays = [
+    ["1", "2", "3"],
+    [true],
+    [4, 5, 6]
+];
+
+console.log(flatten(arrays)); // ["1", "2", "3", true, 4, 5, 6];
+``` 
