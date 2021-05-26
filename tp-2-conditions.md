@@ -6,7 +6,7 @@
 
 Completez ce programme javascript qui accepte deux nombres et affiche le plus grand dans la console (console.log)
 
-```
+```javascript
 var num1, num2;
 num1 = window.prompt("Merci de saisir le premier nombre", "0");
 num2 = window.prompt("Merci de saisir le second nombre", "0");
@@ -20,7 +20,8 @@ Documentation: https://developer.mozilla.org/fr/docs/Web/API/Window/prompt
 #### -    Exercice 2
 
 Completer cette fonction qui affiche 'Bonjour tous le monde' dans les trois langues suivantes (français, anglais, espagnol)
-```
+
+```javascript
 function helloWorld(lang) {
  if (lang == 'fr') {
         return 'Bonjour tout le monde';
@@ -30,7 +31,8 @@ function helloWorld(lang) {
 ```
 
 La fonction devra être appelés avec les trois langues
-```
+
+```javascript
 console.log(helloWorld('en')); // Doit afficher Hola Munda
 console.log(helloWorld('fr')); // Bonjour tous le monde
 console.log(helloWorld('es')); // Hola, Munda
@@ -51,14 +53,14 @@ Si le score > 70 alors retourner C
 Si le score > 65 alors retourner D
 Sinon retouner F
 
-```
+```javascript
 function attribuerNote(note) {
    .....
 }
 ````
 
 Les fonctions devront être appelés de cette manière
-````
+```javascript
 console.log('Tu as eu un' + attribuerNote(95)); // Tu as eu un A
 console.log('Tu as eu un ' + attribuerNote(65)); // Tu as eu un F
 `````
@@ -78,7 +80,7 @@ Comepletez ce programme qui affiche un nombre en littéral lorsque un nombre dig
 - neuf, si est égal à 9
 - Je ne connais pas ce nombre si aucun des nombres entre 1 et 9 est saisi
 
-```
+```javascript
 var number;
 number = window.prompt("Merci de saisir un nombre");
 ....
