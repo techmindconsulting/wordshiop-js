@@ -25,7 +25,7 @@ Ecrire une fonction multiplyEvenIndices, qui prend en entrée un tableau de nomb
 function multiplyOddIndices(numbers) {
 }
 const myArray = [4, 8, 11, 14, 19, 6];
-console.log(multiplyOddIndices(myArray)); // [0, 8, 11, 42, 19, 30]
+console.log(multiplyOddIndices(myArray)); // [0, 8, 22, 14, 76, 6]
 ``` 
 
 #### -  Exercice 3
