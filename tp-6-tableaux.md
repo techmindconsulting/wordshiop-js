@@ -43,7 +43,7 @@ const myArray = [ 'Poulet', 'Bacon', 'Tofu', 'Mayonnaise'];
 console.log(getStringsLength(myArray));
 
 /* [
-  'Chicken contient 7 caractères',
+  'Poulet contient 6 caractères',
   'Bacon contient 5 caractères',
   'Tofu contient 4 caractères',
   'Mayonnaise contient 10 caractères'
