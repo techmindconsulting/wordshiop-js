@@ -13,6 +13,9 @@
 
 [TP-6](tp-6-tableaux.md) - Les tableaux
 
+[TP-7](base-object.md) - Les bases de l'objet
+ 
+
 
 ## TD JS
 ### Chaines de caractères
