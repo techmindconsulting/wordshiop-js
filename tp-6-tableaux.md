@@ -32,7 +32,7 @@ console.log(multiplyOddIndices(myArray)); // [0, 8, 22, 14, 76, 6]
 
 Ecrire une fonction getStringsLength qui reçoit comme un argument un tableau de chaînes.
 
-Cette fonction doit renvoyer un tableau avec pour chaque chaîne CHAINE de longueur N en entrée, la chaîne "CHAINE contains N characters"
+Cette fonction doit renvoyer un tableau avec pour chaque chaîne CHAINE de longueur N en entrée, la chaîne "CHAINE contient N caractères"
 en sortie.
 
 ```javascript
