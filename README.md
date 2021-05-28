@@ -13,7 +13,7 @@
 
 [TP-6](tp-6-tableaux.md) - Les tableaux
 
-[TP-7](base-object.md) - Les bases de l'objet
+
  
 
 
@@ -37,3 +37,7 @@
 [TD-7](video-game.md) - Jeu vidéo
 
 [TD-8](video-game2.md) - Jeu vidéo 2
+
+### Objet
+
+[TD-9](base-object.md) - Les bases de l'objet
