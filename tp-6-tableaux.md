@@ -1,4 +1,4 @@
-## TP 5 -  Les tableaux
+## TP 6 -  Les tableaux
 
 ### A faire sur un environnement en ligne JS (jsbin ou codepen)
 
