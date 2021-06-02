@@ -1,0 +1,114 @@
+## TP 6 -  Les objet et fonctions
+
+### A faire sur un environnement en ligne JS (codepen)
+
+#### -  Exercice 1
+
+Ecrire un programme qui liste les propriétés de cette objet.
+
+```javascript
+let student = {
+  fullname: "John Doe",
+  classname: "Seconde A",
+  age: 15
+};
+```
+Le programme doit renvoyer `fullname,classname, age`
+
+#### -  Exercice 2
+
+Ecrire un programme qui liste les valeurs de cette objet.
+
+```javascript
+let student = {
+  fullname: "John Doe",
+  classname: "Seconde A",
+  age: 15
+};
+```
+Le programme doit renvoyer `John Doe, Seconde A, 15`
+
+
+#### -  Exercice 3
+Ecrire un programme qui supprime la propriété age de l'objet student. Afficher l'objet avant et aprés suppression de la propriété.
+
+```javascript
+let student = {
+  fullname: "John Doe",
+  classname: "Seconde A",
+  age: 15
+};
+```
+
+#### -  Exercice 4
+Ecrire un programe qui donne la longueur de l'objet student. Le programme doit retourner 3
+
+#### -  Exercice 5
+Ecrire un programme qui affiche le statut du livre s'ils ont été lu ou pas.
+
+```javascript
+let library = [ 
+   {
+       author: 'Gustave Flaubert',
+       title: 'Madame Bovary',
+       readingStatus: true
+   },
+   {
+       author: 'Victor Hugo',
+       title: 'Les misérables',
+       readingStatus: true
+   },
+   {
+       author: 'Guy de Maupassant',
+       title:  'Bel ami', 
+       readingStatus: false
+   }];
+```
+
+```console
+Madame de Bovary de Gustave Flaubert a été lu.
+Les misérables de Victor Hugo a été lu.
+Bel ami de Guy de Maupassant n'a pas été lu.
+``` 
+
+#### -  Exercice 6
+Écrire une fonction displayNumbers(from, to) qui affiche un nombre par seconde, en partant de from jusqu’à to.
+
+
+#### -  Exercice 7
+Dans le code ci-dessous il y a une exécution planifié par setTimeout, suivie par un calcul conséquent qui prend plus de 100ms à tourner.
+
+Quand la fonction planifiée va-t-elle s’exécuter ?
+
+1. Après la boucle.
+2. Avant la boucle.
+3. Au début de la boucle.
+
+Qu’est-ce que console.log va afficher ?
+
+```javascript
+let i = 0;
+
+setTimeout(() => console.log(i), 100); // ?
+
+// on considère que cette fonction met plus de 100ms à s'exécuter
+for(let j = 0; j < 100000000; j++) {
+  i++;
+}
+```
+
+#### -  Exercice 8
+Ecrire une fonction récursive power qui prend en paramètre deux entiers:
+Le premier est le nombre sur lequel effectué l'opération
+Le second est l'exposant
+
+```javascript
+function power(number, exponent) {
+  
+}
+console.log(power(2, 5)) // 32
+```
+#### -  Exercice 9
+
+#### -  Exercice 10
+
