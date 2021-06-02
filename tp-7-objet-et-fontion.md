@@ -109,6 +109,27 @@ function power(number, exponent) {
 console.log(power(2, 5)) // 32
 ```
 #### -  Exercice 9
+Ecrire la fonction isEmpty(obj) qui renvoie true si l’objet n’a pas de propriétés, sinon false
+```javascript
+
+let person = {};
+console.log( isEmpty(person) ); // true
+
+person["name"] = "John Doe";
+alert( isEmpty(schedule) ); // false
+```
 
 #### -  Exercice 10
+Nous avons un objet stockant les salaires de notre équipe :
+```javascript
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 140
+}
+```
+Écrire le code pour additionner tous les salaires et les enregistrer dans la variable total. 
+console.log(sum); 
+
+Si salaries est vide, le résultat doit être 0.
 
