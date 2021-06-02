@@ -13,8 +13,7 @@
 
 [TP-6](tp-6-tableaux.md) - Les tableaux
 
-
- 
+[TP-7](tp-7-objet-et-fontion.md) - L'objet et fonction
 
 
 ## TD JS
