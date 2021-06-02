@@ -133,3 +133,18 @@ console.log(sum);
 
 Si salaries est vide, le résultat doit être 0.
 
+### - Exercice 11
+
+Répondez aux questions suivantes.
+
+1 -A quoi sert une fonction constructeur ?
+
+2- À quoi sert le nouveau mot-clé `new`?
+
+3 - À quoi le mot-clé `this` fait-il référence à l'intérieur d'une fonction constructeur?
+
+4 - Qu'est-ce qu'une instance ?
+
+5 - Créez une fonction constructeur pour une personne, chaque personne doit avoir un prénom, un nom, une couleur favorite et un numéro favori.
+
+6 - Écrire une méthode appelée `sumFavoriteNumber` qui prend un nombre et renvoie la somme du nombre et du nombre préféré de la personne
