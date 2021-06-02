@@ -148,6 +148,6 @@ Répondez aux questions suivantes.
 
 4 - Qu'est-ce qu'une instance ?
 
-5 - Créez une fonction constructeur pour une personne, chaque personne doit avoir un prénom, un nom, une couleur favorite et un numéro favori.
+5 - Créez une fonction constructeur pour créer une personne, chaque personne doit avoir un prénom, un nom, une couleur favorite et un numéro favori.
 
 6 - Écrire une méthode appelée `sumFavoriteNumber` qui prend un nombre et renvoie la somme du nombre et du nombre préféré de la personne
