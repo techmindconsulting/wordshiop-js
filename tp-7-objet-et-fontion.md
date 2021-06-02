@@ -136,7 +136,7 @@ console.log(sum);
 
 Si salaries est vide, le résultat doit être 0.
 
-### - Exercice 11
+#### - Exercice 11
 
 Répondez aux questions suivantes.
 
