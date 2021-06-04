@@ -16,7 +16,7 @@ let student = {
   age: 15
 };
 ```
-Le programme doit renvoyer `fullname,classname, age`
+Le programme doit renvoyer `fullname, classname, age`
 
 #### -  Exercice 2
 
