@@ -119,7 +119,7 @@ let person = {};
 console.log( isEmpty(person) ); // true
 
 person["name"] = "John Doe";
-alert( isEmpty(schedule) ); // false
+alert( isEmpty(person) ); // false
 ```
 
 #### -  Exercice 10
