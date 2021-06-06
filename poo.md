@@ -55,7 +55,9 @@ Trois commerciaux avec des compétences suivantes et qu travaille sur des projet
 
 6 - Bonus : Créer un tableau HTML en JS qui affiche tous les employées de la société S ainsi que leur compétence
 
-Documentation: 
-https://developer.mozilla.org/fr/docs/Web/API/HTMLTableElement/insertRow
-https://developer.mozilla.org/fr/docs/Web/API/HTMLTableRowElement/insertCell
+### Documentation question bonus: 
+
+- https://developer.mozilla.org/fr/docs/Web/API/HTMLTableElement/insertRow
+
+- https://developer.mozilla.org/fr/docs/Web/API/HTMLTableRowElement/insertCell
 
