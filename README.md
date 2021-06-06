@@ -41,4 +41,4 @@
 
 [TD-9](base-object.md) - Les bases de l'objet
 
-[TD-10](poo.md) - Programmation orientée objet
+[TD-10](poo.md) - Manipuler des objets
