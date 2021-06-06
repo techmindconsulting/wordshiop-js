@@ -8,18 +8,20 @@
 
 - `Manager` doit hériter de `Employee` avec une propriété employees dont la valeur par défaut est un tableau vide, ce sera un tableau rempli d’objets Employee.
 
-- `Worker` doit hériter de `Employee` et possède une propriété `projects` et `skills` dont les valeurs par défaut sont des tableaux vides.
-
-- `SalesPerson` doit hériter de `Employee` et possède une propriété `quota` dont la valeur par défaut est 100, la propriété branch est surchargée et vaut `sales`
+- `Worker` doit hériter de `Employee` et possède une propriété `projects` et `skills` dont les valeurs par défaut un tableau vide pour `projects`et un tableau avec les `skills` suivantes `Communication, `Teamwork`, `Adaptability`, `Work Ethic`, `Time Management`
+-  
+- `SalesPerson` doit hériter de `Employee` et possède une propriété `bonus` dont la valeur par défaut est 100, la propriété branch est surchargée et vaut `sales`
 
    indiquant que tous les vendeurs font partie du même département
 
 - `Developer` doit hériter de WorkerBee et la propriété `department` est surchargée avec la valeur `software engineering`.
 
 
-2 - Ecrire un progamme ou on a un manager qui gere: 
+2 - Ecrire un progamme permettant de répondre à toutes ces questions. 
 
-   Trois commerciaux avec des compétences suivantes et qu travaille sur des projets:
+La société S a un manager qui gere : 
+
+Trois commerciaux avec des compétences suivantes et qu travaille sur des projets:
       
    - Commercial 1 travaille sur le projet `Artificial Intelligence` et `Virtual Reality`: (Information Management, Persuasive Communication) 
    - Commercial 2 travaille sur le projet `Artificial Intelligence` et `Video Compensation`: (Research and Planning, Problem-Solving)
@@ -36,9 +38,18 @@
 3 - Le commercial 3 a gagné un nouveau projet `Mentorship Platform` et a besoin de developpeurs qui ont des compétences en JS, PHP et C.
 
 4 - Les commerciaux ont obtenu des bonus suite à projets qu'ils ont obtenu pour la société, quel commercial a obtenu le plus gros bonus
-   - `Video Compensation`
-   - `Artificial Intelligence`
-   - `Virtual Reality`
-   - `Satellite Wi-Fi`
-   - 
+   - `Video Compensation` Bonus: 1000
+   - `Artificial Intelligence` Bonus:  2500
+   - `Virtual Reality` Bonus: 2000
+   - `Satellite Wi-Fi` Bonus: 2300
+   - `Mentorship Platform` Bonus: 500
+   
+   Qui a le plus gros bonus ?
+
+5 - Un nouveau manager arrive et cherche à recruter dans son équipe un commercial et developpeur sachant que les commerciaux et developpeurs deja en place ne peuvent pas être sous la responsabilité de ce nouveau commercial.
+
+6 - Bonus : Créer un tableau HTML en JS qui affiche tous les employées de la société S ainsi que leur compétence
+Documentation: 
+https://developer.mozilla.org/fr/docs/Web/API/HTMLTableElement/insertRow
+https://developer.mozilla.org/fr/docs/Web/API/HTMLTableRowElement/insertCell
 
