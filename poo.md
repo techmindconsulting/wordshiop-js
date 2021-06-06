@@ -2,7 +2,12 @@
 
 ### Exercice
 
-1 - Ecrire les classes suivantes qui décris l'aborescence ci dessus : 
+
+1 - Ecrire les classes suivantes qui décris l'aborescence ci dessous : 
+
+
+![assets/class-js.png](assets/class-js.png)
+
 
 - `Employee` possède une propriété `fullname` et `email` dont la valeur par défaut est une chaine vide et `department` dont la valeur par défaut est `common`.
 
