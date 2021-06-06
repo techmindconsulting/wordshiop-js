@@ -54,6 +54,7 @@ Trois commerciaux avec des compétences suivantes et qu travaille sur des projet
 5 - Un nouveau manager arrive et cherche à recruter dans son équipe un commercial et developpeur sachant que les commerciaux et developpeurs deja en place ne peuvent pas être sous la responsabilité de ce nouveau commercial.
 
 6 - Bonus : Créer un tableau HTML en JS qui affiche tous les employées de la société S ainsi que leur compétence
+
 Documentation: 
 https://developer.mozilla.org/fr/docs/Web/API/HTMLTableElement/insertRow
 https://developer.mozilla.org/fr/docs/Web/API/HTMLTableRowElement/insertCell
