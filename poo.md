@@ -14,7 +14,7 @@
 - `Manager` doit hériter de `Employee` avec une propriété employees dont la valeur par défaut est un tableau vide, ce sera un tableau rempli d’objets Employee.
 
 - `Worker` doit hériter de `Employee` et possède une propriété `projects` et `skills` dont les valeurs par défaut un tableau vide pour `projects`et un tableau avec les `skills` suivantes `Communication, `Teamwork`, `Adaptability`, `Work Ethic`, `Time Management`
-- `SalesPerson` doit hériter de `Worker` et possède une propriété `bonus` dont la valeur par défaut est 100, la propriété branch est surchargée et vaut `sales`
+- `SalesPerson` doit hériter de `Worker` et possède une propriété `bonus` dont la valeur par défaut est 100, la propriété department est surchargée et vaut `sales`
 
    indiquant que tous les vendeurs font partie du même département
 
