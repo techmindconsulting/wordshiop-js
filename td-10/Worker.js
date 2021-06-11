@@ -1,4 +1,8 @@
+import Employee from './Employee.js';
+import Manager from './Manager.js';
+
 class Worker extends Employee {
+
     constructor(
         fullname = "",
         email = "",
@@ -26,9 +30,7 @@ class Worker extends Employee {
     get manager() {
         return this._manager;
     }
-    /**
-     * @param {Manager} value
-     */
+
     set manager(value) {
         if (value instanceof Manager) {
             this._manager = value;
@@ -39,3 +41,5 @@ class Worker extends Employee {
         return this._manager instanceof Manager;
     }
 }
+
+export default Worker;

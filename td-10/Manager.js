@@ -1,5 +1,7 @@
+import Employee from './Employee.js'
+
 class Manager extends Employee {
-    
+
     employees = [];
     
     constructor(fullname = "", email = "", department = "common") {
@@ -15,3 +17,5 @@ class Manager extends Employee {
         });   
     }
 }
+
+export default Manager;

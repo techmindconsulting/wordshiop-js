@@ -1,3 +1,5 @@
+import Worker from './Worker.js'
+
 class Developer extends Worker {
     constructor(
         fullname = "",
@@ -9,3 +11,5 @@ class Developer extends Worker {
         super(fullname, email, department, projects, skills);
     }
 }
+
+export default Developer;
