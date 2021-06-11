@@ -50,7 +50,7 @@ Trois commerciaux avec des compétences suivantes et qu travaille sur des projet
    
    Qui a le plus gros bonus ?
 
-5 - Un nouveau manager arrive et cherche à recruter dans son équipe un commercial et developpeur sachant que les commerciaux et developpeurs deja en place ne peuvent pas être sous la responsabilité de ce nouveau commercial.
+5 - Un nouveau manager arrive et cherche à recruter dans son équipe un commercial et developpeur sachant que les commerciaux et developpeurs deja en place ne peuvent pas être sous la responsabilité de ce nouveau manager.
 
 6 - Bonus : Créer un tableau HTML en JS qui affiche tous les employées de la société S ainsi que leur compétence
 
