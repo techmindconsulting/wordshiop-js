@@ -5,15 +5,70 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+
+            section {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 2rem;
+            }
+            
+            table {
+                font-size: 1.2rem;
+                border-collapse: separate;
+                flex: 1;
+            }
+
+            tr:nth-child(odd) {
+                background-color: #eee;
+            }
+
+            tr:nth-child(even) {
+                background-color: #ccc;
+            }
+
+            td, th {
+                text-align: center;
+                padding: .2rem 1rem;
+            }
+            caption {
+                caption-side: top;
+                background: #fc3;
+                padding: .5rem 1rem;
+            }
+        </style>
     </head>
     <body>
         <h1>TD 10: Programmation orientée objet</h1>
+        <section>
+            <table id="employee-1">
+                <tr>
+                    <th>fullname</th>
+                    <th>Email</th>
+                    <th>Branch</th>
+                </tr>
+                <caption id="manager-1"></caption>
+            </table>
+            <table id="employee-2">
+                <tr>
+                    <th>fullname</th>
+                    <th>Email</th>
+                    <th>Branch</th>
+                </tr>
+                <caption id="manager-2"></caption>
+            </table>
+        </section>
         <!-- Question 1-->
         <script src="Employee.js"></script>
         <script src="Manager.js"></script>
         <script src="Worker.js"></script>
         <script src="Developer.js"></script>
         <script src="SalesPerson.js"></script>
+        <script src="TableLoader.js"></script>
         
         <script>
             // Question 2
@@ -38,7 +93,6 @@
             salesPerson3.setProjects(["Satellite Wi-Fi"]);
             salesPerson3.addProject("Mentorship Platform");
             salesPersons.push(salesPerson3);
-            console.log(salesPersons);
 
             let developers = [];
             
@@ -83,8 +137,6 @@
             developer5.addSkill("Objective C");
             developer5.addSkill("IOS");
             developers.push(developer5);
-
-            console.log(developers);
             
             // Question 3
             let lookingForDevelopers = developers.filter((developer) => {
@@ -117,7 +169,7 @@
 
             console.log(`${salesPersons[0].fullname} a le plus gros bonus avec ${salesPersons[0].bonus} €`);
 
-            // Question 5 (A completer)
+            // Question 5
             let manager = new Manager("Zak Storm", "zak.storm@yopmail.com");
             manager.addEmployees([...salesPersons, ...developers]);
             console.log(manager);
@@ -143,12 +195,18 @@
             if (!salesPerson4.hasManager()) {
                 workers.push(salesPerson4);
             }
-
             manager2.addEmployees(workers);
-
-
             console.log(manager2);
- 
+
+            // Question 6
+            let tableEmployee1 = document.getElementById('employee-1');
+            let tableEmployee2 = document.getElementById('employee-2');
+            let caption1 = document.getElementById('manager-1');
+            let caption2 = document.getElementById('manager-2');
+            caption1.textContent = `Manager ${manager.fullname}`;
+            caption2.textContent = `Manager ${manager2.fullname}`;
+            TableLoader.loadEmployeeFrom(manager, tableEmployee1);
+            TableLoader.loadEmployeeFrom(manager2, tableEmployee2);
         </script>
     </body>
 </html>
