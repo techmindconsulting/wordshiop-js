@@ -9,6 +9,7 @@ class Manager extends Employee {
     addEmployees(employees) {
         employees.forEach((employee) => {
             if (employee instanceof Employee) {
+                employee.manager = this;
                 this.employees.push(employee);
             }
         });   

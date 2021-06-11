@@ -121,7 +121,34 @@
             let manager = new Manager("Zak Storm", "zak.storm@yopmail.com");
             manager.addEmployees([...salesPersons, ...developers]);
             console.log(manager);
+            
+            let manager2 = new Manager("Sylver Storm", "sylver.storm@yopmail.com");
 
+            let developer6 = new Developer("Marc Lee 6", "marc.lee6@yopmail.com", "software engineering");
+            developer6.setProjects(["Video Compensation", "Artificial Intelligence"]);
+            developer6.addSkill("Android");
+            developer6.addSkill("Kotlin");
+            developer6.addSkill("JAVA");
+
+            let salesPerson4 = new SalesPerson("John Doe 4", "john.doe4@yopmail.com", "sales");
+            salesPerson4.addSkill("Research and Planning");
+            salesPerson4.addSkill("Problem-Solving");
+            salesPerson4.setProjects(["Artificial Intelligence", "Video Compensation"]);
+ 
+            const workers = [];
+            if (!developer6.hasManager()) {
+                workers.push(developer6);
+            }
+
+            if (!salesPerson4.hasManager()) {
+                workers.push(salesPerson4);
+            }
+
+            manager2.addEmployees(workers);
+
+
+            console.log(manager2);
+ 
         </script>
     </body>
 </html>

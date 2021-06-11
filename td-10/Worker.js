@@ -22,4 +22,20 @@ class Worker extends Employee {
     addProject(project) {
         this.projects.push(project);
     }
+
+    get manager() {
+        return this._manager;
+    }
+    /**
+     * @param {Manager} value
+     */
+    set manager(value) {
+        if (value instanceof Manager) {
+            this._manager = value;
+        }
+    }
+
+    hasManager() {
+        return this._manager instanceof Manager;
+    }
 }
