@@ -1,5 +1,3 @@
-import Worker from "./Worker.js";
-import Employee from "./Employee.js";
 import Developer from "./Developer.js";
 import SalesPerson from "./SalesPerson.js";
 import Manager from "./Manager.js";
