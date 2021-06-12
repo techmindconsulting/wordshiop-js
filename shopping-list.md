@@ -31,7 +31,9 @@ Afficher les noms des produits et leurs prix, puis faire le total des prix et l'
 	    
 	    // etape 4
 	    
-	    // etape 5
+	    // etape 5 
+	    
+	    // etape 6
 	    itemText = 0;
 	    let listItem = document.createElement('li');
 	    listItem.textContent = itemText;
@@ -62,10 +64,10 @@ En plus des lignes de code ci‑dessus, vous aurez aussi à convertir les prix d
 
 Il y a une variable nommée  `total`  créée et initialisée à la valeur de 0 en tête du code. 
 
-Dans la boucle (sous  `// etape 4`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit. 
+Dans la boucle (sous  `// etape 5`) ajoutez une ligne qui ajoute à ce total le prix de l'article courant à chaque itération de la boucle, de sorte que à la fin du code le prix total soit correctement inscrit. 
 
 ## Etape 6
 
-Modifier la ligne au‑dessous de `// etape 5`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — 23.99€ » dans chaque cas, de façon à ce qu'une information correcte soit affichée. 
+Modifier la ligne au‑dessous de `// etape 6`  de sorte que la variable  `itemText`  soit égale à « nom actuel de l'élément — $prix actuel de l'élément », par exemple « Shoes — 23.99€ » dans chaque cas, de façon à ce qu'une information correcte soit affichée. 
 
 Il s'agit d'une simple concaténation de chaînes de caractères, chose qui doit vous être familière.
