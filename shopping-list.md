@@ -37,6 +37,8 @@ Afficher les noms des produits et leurs prix, puis faire le total des prix et l'
 	    listItem.textContent = itemText;
 	    list.appendChild(listItem);
     }
+    
+    totalBox.textContent = `Le total est de  ${} €`;
 ```
 
 ## Etape 1
