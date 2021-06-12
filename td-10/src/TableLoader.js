@@ -1,4 +1,4 @@
-export class TableLoader {
+class TableLoader {
     static loadFrom(manager, tableElement) {
         manager.employees.forEach( (employee, key) => {
             let line = tableElement.insertRow(key + 1);
