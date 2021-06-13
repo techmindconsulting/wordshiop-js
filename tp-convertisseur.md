@@ -1,12 +1,11 @@
 
 # TP : Convertisseur de devises
 
-### Enoncé
+### Partie 1
 
-En inspirant du design du convertisseur de Boursorama, vous devez développer un web app  qui permet de convertir d'une devise à une autre selon le tableau des devises qui vous sera fournit
+En s'inspirant du design du convertisseur de Boursorama, vous devez développer une web app  qui permet de convertir d'une devise à une autre selon l'objet des devises qui vous sera fournit
 
 https://www.boursorama.com/bourse/devises/convertisseur-devises/
-
 
 ### javascript
 Vous devez vous servir de cette objet pour toute vos opération de convertisseur
@@ -57,3 +56,12 @@ const tauxDevise = {
 };
 
 ```
+
+Documentation : https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement
+
+### Partie 2 
+
+L'objet de devises devra être remplacé par une API et les conversion précédemment effectué devront être historisé et visible à l'écran
+
+API à utiliser :
+https://free.currencyconverterapi.com/
