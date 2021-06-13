@@ -8,7 +8,7 @@ En s'inspirant du design du convertisseur de Boursorama, vous devez développer 
 https://www.boursorama.com/bourse/devises/convertisseur-devises/
 
 ### javascript
-Vous devez vous servir de cette objet pour toute vos opération de convertisseur
+Vous devez vous servir de cette objet pour toute vos opérations 
 ```javascript
 const tauxDevise = {
     eur: {
@@ -61,7 +61,7 @@ Documentation : https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectEleme
 
 ### Partie 2 
 
-L'objet de devises devra être remplacé par une API et les conversion précédemment effectué devront être historisé et visible à l'écran
+L'objet de devise devra être remplacé par une API et les conversions précédemment effectuées devront être historisés et visible à l'écran
 
 API à utiliser :
 https://free.currencyconverterapi.com/
