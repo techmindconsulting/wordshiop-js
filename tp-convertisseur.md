@@ -57,11 +57,27 @@ const tauxDevise = {
 
 ```
 
-Documentation : https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement
+Lien utile : https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement
 
 ### Partie 2 
 
 L'objet de devise devra être remplacé par une API et les conversions précédemment effectuées devront être historisés et visible à l'écran
 
-API à utiliser :
+API à utiliser : (La création de compte est nécéssaire pour obtenir une api-key)
 https://free.currencyconverterapi.com/
+
+Liste des devises: https://free.currconv.com/api/v7/currencies?apiKey=api-key
+
+Récupérer le taux:  https://free.currconv.com/api/v7/convert?q=USD_PHP&compact=ultra&apiKey=api-key
+
+Liens utiles:
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist
+
+https://developer.mozilla.org/fr/docs/Web/API/Document/DOMContentLoaded_event
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/append
+
+https://developer.mozilla.org/fr/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
