@@ -1,6 +1,6 @@
+import Manager from "./Manager.js";
 import Developer from "./Developer.js";
 import SalesPerson from "./SalesPerson.js";
-import Manager from "./Manager.js";
 import TableLoader from "./TableLoader.js";
 
 // Question 2
@@ -133,5 +133,6 @@ let caption1 = document.getElementById("manager-1");
 let caption2 = document.getElementById("manager-2");
 caption1.textContent = `Manager ${manager.fullname}`;
 caption2.textContent = `Manager ${manager2.fullname}`;
+
 TableLoader.loadFrom(manager, tableEmployee1);
 TableLoader.loadFrom(manager2, tableEmployee2);

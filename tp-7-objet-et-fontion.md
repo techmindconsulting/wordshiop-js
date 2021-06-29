@@ -1,4 +1,4 @@
-## TP 7 -  Les objets et fonctions
+## TP 7 -  Les objets
 
 Concernant les exercices sur les objets, ne pas hésiter à consulter la documentation
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object
@@ -73,68 +73,90 @@ Madame de Bovary de Gustave Flaubert a été lu.
 Les misérables de Victor Hugo a été lu.
 Bel ami de Guy de Maupassant n'a pas été lu.
 ``` 
-
 #### -  Exercice 6
-Écrire une fonction displayNumbers(from, to) qui affiche un nombre par seconde, en partant de from jusqu’à to.
 
+Écrivez le code, une ligne pour chaque action :
 
-#### -  Exercice 7
-Dans le code ci-dessous il y a une exécution planifié par setTimeout, suivie par un calcul conséquent qui prend plus de 100ms à tourner.
+1. Créer un objet vide user.
+2. Ajoutez la propriété name avec la valeur John.
+3. Ajoutez la propriété surname avec la valeur Smith.
+4. Changer la valeur de name pour Pete.
+5. Supprimez la propriété name de l’objet.
 
-Quand la fonction planifiée va-t-elle s’exécuter ?
+### - Exercice 7
 
-1. Après la boucle.
-2. Avant la boucle.
-3. Au début de la boucle.
-
-Qu’est-ce que console.log va afficher ?
-
-```javascript
-let i = 0;
-
-setTimeout(() => console.log(i), 100); // ?
-
-// on considère que cette fonction met plus de 100ms à s'exécuter
-for(let j = 0; j < 100000000; j++) {
-  i++;
-}
-```
-
-#### -  Exercice 8
-Ecrire une fonction récursive power qui prend en paramètre deux entiers:
-Le premier est le nombre sur lequel effectué l'opération
-Le second est l'exposant
+Est-il possible de changer un objet déclaré avec const, comment ?
 
 ```javascript
-function power(number, exponent) {
-  
-}
-console.log(power(2, 5)) // 32
-```
-#### -  Exercice 9
-Ecrire la fonction isEmpty(obj) qui renvoie true si l’objet n’a pas de propriétés, sinon false
-```javascript
+const user = {
+  name: "Linda"
+};
 
-let person = {};
-console.log( isEmpty(person) ); // true
-
-person["name"] = "John Doe";
-alert( isEmpty(person) ); // false
+// est-ce que ça fonctionne ?
+user.name = "Sarah";
 ```
 
-#### -  Exercice 10
+### - Exercice 8
+
 Nous avons un objet stockant les salaires de notre équipe :
+
 ```javascript
 let salaries = {
   John: 100,
   Ann: 160,
-  Pete: 140
+  Pete: 130
 }
 ```
-Écrire le code pour additionner tous les salaires et les enregistrer dans la variable total. 
-console.log(sum); 
+
+Écrivez le code pour additionner tous les salaires et les enregistrer dans la variable sum. Devrait être égale à 390 dans l’exemple ci-dessus.
 
 Si salaries est vide, le résultat doit être 0.
+
+
+### - Exercice 9
+
+Ecrivez la fonction isEmpty(obj) qui renvoie true si l’objet n’a pas de propriétés, sinon false.
+
+Devrait fonctionner comme ça :
+
+```javascript
+let schedule = {};
+
+alert( isEmpty(schedule) ); // true
+
+schedule["8:30"] = "get up";
+
+alert( isEmpty(schedule) ); // false
+```
+
+### - Exercice 10
+
+Créez une fonction multiplyNumeric(obj) qui multiplie toutes les valeurs de propriétés numériques de obj par 2.
+
+Par exemple :
+
+```javascript
+// before the call
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+multiplyNumeric(menu);
+
+// after the call
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu"
+};
+```
+
+Veuillez noter que multiplyNumeric n’a pas besoin de retourner quoi que ce soit. Il devrait modifier l’objet en place.
+
+P.S. Utilisez typeof pour rechercher un number ici.
+
 
 #### - Exercice 11
 
