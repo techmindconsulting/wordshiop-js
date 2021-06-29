@@ -15,6 +15,21 @@
 
 [TP-7](tp-7-objet-et-fontion.md) - L'objet et fonction
 
+[TP-8](tp-8-dom.md) - Le DOM (A venir)
+
+
+## Projet JS
+
+[Projet 1](tp-convertisseur.md) - Convertisseur de devises
+
+[Projet 2](tp-todolist.md) - Un todo-list
+
+[Projet 3](tp-calculatrice.md) - Une calculatrice
+
+[Projet 4](tp-weather.md) - Une app de météo
+
+[Projet 5] A venir
+
 
 ## TD JS
 ### Chaines de caractères

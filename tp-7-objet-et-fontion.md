@@ -3,7 +3,7 @@
 Concernant les exercices sur les objets, ne pas hésiter à consulter la documentation
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object
 
-### A faire sur un environnement en ligne JS (codepen)
+### A faire sur une sandbox (codepen)
 
 #### -  Exercice 1
 
