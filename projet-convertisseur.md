@@ -1,5 +1,5 @@
 
-# TP : Convertisseur de devises
+# Projet : Convertisseur de devises
 
 ### Partie 1
 

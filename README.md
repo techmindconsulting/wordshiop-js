@@ -22,13 +22,9 @@
 
 [Projet 1](projet-convertisseur.md) - Convertisseur de devises
 
-[Projet 2](projet-todolist.md) - Un todo-list
+[Projet 2](projet-calculatrice.md) - Une calculatrice
 
-[Projet 3](projet-calculatrice.md) - Une calculatrice
-
-[Projet 4](projet-meteo.md) - Une app de météo
-
-[Projet 5](projet-burger.md) - Loader de chargement + Formulaire de contact
+[Projet 3](projet-meteo.md) - Une app de météo
 
 
 ## TD JS
