@@ -20,15 +20,15 @@
 
 ## Projet JS
 
-[Projet 1](tp-convertisseur.md) - Convertisseur de devises
+[Projet 1](projet-convertisseur.md) - Convertisseur de devises
 
-[Projet 2](tp-todolist.md) - Un todo-list
+[Projet 2](projet-todolist.md) - Un todo-list
 
-[Projet 3](tp-calculatrice.md) - Une calculatrice
+[Projet 3](projet-calculatrice.md) - Une calculatrice
 
-[Projet 4](tp-weather.md) - Une app de météo
+[Projet 4](projet-meteo.md) - Une app de météo
 
-[Projet 5] A venir
+[Projet 5](projet-burger.md) - Loader de chargement + Formulaire de contact
 
 
 ## TD JS
