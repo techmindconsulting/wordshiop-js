@@ -19,6 +19,18 @@
 
 [TP-9](tp-9-dom.md) - Le DOM (A venir)
 
+[TP-10](tp-10-events.md) - Events 1 (A venir)
+
+[TP-11](tp-11-events-2.md) - Events 2 (A venir)
+
+[TP-11](tp-12-forms.md) - Formulaires (A venir)
+
+[TP-12](tp-13-storage.md) - Storage (A venir)
+
+[TP-12](tp-14-promesse-async-await.md) - Promesses et Async Await (A venir)
+
+[TP-13](tp-15-fetch-api-network.md) - Fetch API et réseaux(A venir)
+
 
 ## Projet JS
 
