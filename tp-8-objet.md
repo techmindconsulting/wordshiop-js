@@ -1,4 +1,4 @@
-## TP 7 -  Les objets
+## TP 8 -  Les objets
 
 Concernant les exercices sur les objets, ne pas hésiter à consulter la documentation
 https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object
