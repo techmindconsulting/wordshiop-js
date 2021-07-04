@@ -71,9 +71,77 @@ ask(
 );
 ```
 
-#### -  Exercice 4 : 
+#### -  Exercice 4 : Rest operators
+
+Remplacer cette fonction par une fonction qui utilise le rest operator (...)
+
+```javascript
+function multiply() {  
+  let result = 1;
+  let nombres = Array.from(arguments);
+   
+  nombres.forEach( (number) => {
+    result *= number;
+  })
+  
+  return result;
+}
+console.log(multiply(1, 2, 3, 4, 5));
+```
+
 
 #### -  Exercice 5
+
+Que vont afficher ces extraits de code ?
+
+##### Extrait 1
+
+```javascript
+function show() {
+  console.log('Welcome!');
+}
+show();
+```
+
+##### Extrait 2
+```javascript
+function show() {
+  console.log('Welcome!');
+}
+show();
+show();
+```
+
+
+##### Extrait 3
+```javascript
+function show() {
+  let localVar = "Welcome!";
+  console.log(localVar);
+}
+show();
+console.log(localVar);
+```
+##### Extrait 4
+```javascript
+let siteName = 'Techmind';
+function show() {
+  let variable = 'Welcome to ' + siteName;
+  console.log(variable);
+}
+show();
+``` 
+##### Extrait 5
+```javascript
+let siteName = 'newSite';
+function show() {
+  let siteName = "Techmind";
+  let message = 'Welcome to ' + siteName; 
+  console.log(message); 
+}
+show();
+console.log(siteName);
+````
 
 #### -  Exercice 6
 Écrire une fonction displayNumbers(from, to) qui affiche un nombre par seconde, en partant de from jusqu’à to.
