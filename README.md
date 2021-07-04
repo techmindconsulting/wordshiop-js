@@ -13,9 +13,11 @@
 
 [TP-6](tp-6-tableaux.md) - Les tableaux
 
-[TP-7](tp-7-objet-et-fontion.md) - L'objet et fonction
+[TP-7](tp-7-fonction.md) - Les fonctions
 
-[TP-8](tp-8-dom.md) - Le DOM (A venir)
+[TP-8](tp-8-objet.md) - L'objet
+
+[TP-9](tp-9-dom.md) - Le DOM (A venir)
 
 
 ## Projet JS
