@@ -1,5 +1,80 @@
 ## TP 8 -  Fonction
 
+#### -  Exercice 1 : Est-ce que "else" est requis ?
+
+La fonction suivante renvoie true si le paramètre age est supérieur à 18.
+
+Sinon, il demande une confirmation et renvoie son résultat :
+
+```javascript
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    // ...
+    return confirm('Did parents allow you?');
+  }
+}
+```
+
+La fonction fonctionnera-t-elle différemment si else est supprimé ?
+
+```javascript
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  }
+  // ...
+  return confirm('Did parents allow you?');
+}
+```
+Existe-t-il une différence dans le comportement de ces deux variantes ?
+
+
+#### -  Exercice 2 : Réécriver la fonction en utlisant ? ou || 
+
+La fonction suivante renvoie true si le paramètre age est supérieur à 18.
+
+Sinon, il demande une confirmation et renvoie le résultat.
+
+```javascript
+function checkAge(age) {
+  if (age > 18) {
+    return true;
+  } else {
+    return confirm('Did parents allow you?');
+  }
+}
+```
+Réécrivez-le, pour effectuer la même chose, mais sans if, et en une seule ligne.
+
+Faites deux variantes de checkAge :
+
+1. En utilisant un opérateur point d’interrogation ?
+2. En utilisant OU ||
+
+
+#### -  Exercice 3 :  Réécrire avec les fonctions fléchées
+
+Remplacez les expressions de fonction par des fonctions fléchées dans le code ci-dessous :
+
+```javascript
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  function() { alert("You agreed."); },
+  function() { alert("You canceled the execution."); }
+);
+```
+
+#### -  Exercice 4 : 
+
+#### -  Exercice 5
+
 #### -  Exercice 6
 Écrire une fonction displayNumbers(from, to) qui affiche un nombre par seconde, en partant de from jusqu’à to.
 
