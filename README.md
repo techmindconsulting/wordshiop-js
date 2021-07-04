@@ -42,12 +42,18 @@
 
 
 ## TD JS
+
+### Variables
+
+### Math et opérations
+
+### 
+
 ### Chaines de caractères
 
 [TD-1](filter-title-newspaper.md) - Filtrer les unes d'un journal sportif
 
 [TD-2](reset-capital-letters.md) - Remettre les majuscules
-
 
 [TD-3](making-new-strings-from-old-parts.md) - Créer de nouvelles chaînes à partir de morceaux
 
@@ -62,8 +68,53 @@
 
 [TD-8](video-game2.md) - Jeu vidéo 2
 
+### Conditions
+
+(A venir)
+
+### Boucles
+
+(A venir)
+
+### Fonctions
+
+(A venir)
+
 ### Objet
 
 [TD-9](base-object.md) - Les bases de l'objet
 
 [TD-10](poo.md) - Manipuler des objets
+
+
+### JSON
+
+(A venir)
+
+### Orienté objet
+
+(A venir)
+
+### Events
+
+(A venir)
+
+### DOM
+
+(A venir)
+
+### Formulaires
+
+(A venir)
+
+### HTTP et réseaux
+
+(A venir)
+
+### API
+
+(A venir)
+
+### Storage
+
+(A venir)
