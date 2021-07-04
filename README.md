@@ -45,11 +45,13 @@
 
 ### Variables
 
+(A venir)
+
 ### Math et opérations
 
-### 
+(A venir)
 
-### Chaines de caractères
+### Manipuler des chaines de caractères
 
 [TD-1](filter-title-newspaper.md) - Filtrer les unes d'un journal sportif
 
@@ -57,7 +59,8 @@
 
 [TD-3](making-new-strings-from-old-parts.md) - Créer de nouvelles chaînes à partir de morceaux
 
-### Tableau
+### Manipuler des tableaux
+
 [TD-4](shopping-list.md) - Liste de courses supermarché
 
 [TD-5](top-5-search-engine.md) - Top 5 des recherches
