@@ -56,7 +56,7 @@ Faites deux variantes de checkAge :
 
 #### -  Exercice 3 :  Réécrire avec les fonctions fléchées
 
-Remplacez les expressions de fonction par des fonctions fléchées dans le code ci-dessous :
+Remplacez la fonction ask par une fonction fléchée dans le code ci-dessous :
 
 ```javascript
 function ask(question, yes, no) {
