@@ -31,7 +31,7 @@ function checkAge(age) {
 Existe-t-il une différence dans le comportement de ces deux variantes ?
 
 
-#### -  Exercice 2 : Réécriver la fonction en utlisant ? ou || 
+#### -  Exercice 2 : Réécriver la fonction en utlisant ? (ternaire) ou || 
 
 La fonction suivante renvoie true si le paramètre age est supérieur à 18.
 
