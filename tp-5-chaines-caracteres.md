@@ -57,7 +57,7 @@ function insert(string) {
 
 console.log(insert('Nous faisons des exercices.')); // "Nous faisons des exercices"
 console.log(insert('Nous faisons des exercices.','JavaScript ')); // "JavaScript Nous faisons des exercices"
-console.log(insert('Nous faisons des exercices.','JavaScript ',18)); // "Nous faisons des JavaScript exercices"
+console.log(insert('Nous faisons des exercices.','JavaScript ',17)); // "Nous faisons des JavaScript exercices"
 ```
 
 #### -  Exercice 5
